@@ -44,7 +44,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 id
 ~~~
->> gid=999(docker) となっていればOK  
+> gid=999(docker) となっていればOK  
 
 **7.コンテナの立ち上げ**  
 ~~~
