@@ -1,13 +1,13 @@
 # dockerのインストール  
 **1.必要なパッケージのインストール**  
-'''
+~~~
 sudo apt-get update
 sudo apt-get install \ 
     ca-certificates \
     curl \
     gnupg \
     lsb-release
-'''
+~~~
 
 **2.Docker の GPG 鍵を追加**  
 '''
