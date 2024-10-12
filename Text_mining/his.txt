@@ -1,0 +1,1002 @@
+ 1042  l
+ 1043  cd MCMC/
+ 1044  l
+ 1045  vi u_emcee.py
+ 1046  python u_emcee.py 
+ 1047  vi u_emcee.py
+ 1048  python u_emcee.py 
+ 1049  vi u_emcee.py
+ 1050  python u_emcee.py 
+ 1051  vi u_emcee.py
+ 1052  python u_emcee.py 
+ 1053  df -u
+ 1054  df -h
+ 1055  l
+ 1056  ls ~
+ 1057  cd ~/works/
+ 1058  l
+ 1059  cd H2O/
+ 1060  l
+ 1061  cd ../
+ 1062  du -h
+ 1063  l
+ 1064  du -h H2O/
+ 1065  l
+ 1066  du -h ADECP/
+ 1067  l
+ 1068  mv H2O/ /media/daichi/HDPH-UT/works/
+ 1069  l
+ 1070  df -h
+ 1071  l
+ 1072  python click.py 
+ 1073  mv ../../../setting_button.png .
+ 1074  l
+ 1075  vi config 
+ 1076  vi click.py 
+ 1077  python click.py 
+ 1078  vi click.py 
+ 1079  python click.py 
+ 1080  vi click.py 
+ 1081  python click.py 
+ 1082  vi click.py 
+ 1083  python click.py 
+ 1084  vi click.py 
+ 1085  fg
+ 1086  vi click.py 
+ 1087  python click.py 
+ 1088  vi click.py 
+ 1089  python click.py 
+ 1090  vi click.py 
+ 1091  python click.py 
+ 1092  vi click.py 
+ 1093  python click.py 
+ 1094  vi click.py 
+ 1095  ls
+ 1096  cd ../
+ 1097  ls
+ 1098  cp -rp made/ ~/Desktop/Git/Private_repo/selfprogram/
+ 1099  cd ~/Desktop/Git/Private_repo/selfprogram/
+ 1100  cd ../
+ 1101  ls selfprogram/
+ 1102  ls
+ 1103  git add .
+ 1104  git commit -m "add selfP made"
+ 1105  git push origin main 
+ 1106  cd -
+ 1107  cd ~/Desktop/Programming/python/
+ 1108  l
+ 1109  cd made/
+ 1110  l
+ 1111  cd -
+ 1112  cd ~/Desktop/Git/Private_repo
+ 1113  l
+ 1114  mkdir Config
+ 1115  mv bashrc config ddc.toml dein.toml inputrc profile vimrc Config/
+ 1116  l
+ 1117  vi memo.txt 
+ 1118  git add .
+ 1119  git commit -m "mk Config"
+ 1120  git push origin main 
+ 1121  vi ~/.local/lib/python3.8/site-packages/pyautogui/_pyautogui_win.py 
+ 1122  vi ~/.local/lib/python3.8/site-packages/pyautogui/_pyautogui_x11.py 
+ 1123  vi ~/.local/lib/python3.8/site-packages/pyautogui/_pyautogui_win.py 
+ 1124  vi ~/.local/lib/python3.8/site-packages/pyautogui/_pyautogui_osx.py 
+ 1125  vi ~/.local/lib/python3.8/site-packages/pyautogui/_pyautogui_java.py 
+ 1126  vi ~/.local/lib/python3.8/site-packages/pyautogui/_pyautogui_x11.py 
+ 1127  vi ~/.local/lib/python3.8/site-packages/pyautogui/_pyautogui_win.py 
+ 1128  vi ~/.local/lib/python3.8/site-packages/pyautogui/_pyautogui_x11.py 
+ 1129  l
+ 1130  cd -
+ 1131  l
+ 1132  cd -
+ 1133  ls
+ 1134  cd made/
+ 1135  l
+ 1136  vi click.py 
+ 1137  python click.py 
+ 1138  l
+ 1139  cd ../ML/
+ 1140  l
+ 1141  cd ../
+ 1142  l
+ 1143  cd ASE_DFT/
+ 1144  ls
+ 1145  cd ../ML/
+ 1146  l
+ 1147  mkdir NNP
+ 1148  cd NNP/
+ 1149  l
+ 1150  cd ~/program/
+ 1151  l
+ 1152  mv ~/Downloads/aenet-1.0.0.tar.gz .
+ 1153  l
+ 1154  rm aenet-1.0.0.tar.gz 
+ 1155  mv ~/Downloads/aenet-2.0.3.tar.bz2 .
+ 1156  tar -jxvf aenet-2.0.3.tar.bz2
+ 1157  ls
+ 1158  cd aenet-2.0.3/
+ 1159  l
+ 1160  cd lib/
+ 1161  make F90='ifort -c'
+ 1162  cd ../src/
+ 1163  l
+ 1164  l
+ 1165  vi makefiles/README 
+ 1166  make -f makefiles/Makefile.gfortran_serial 
+ 1167  ls -ltr ../bin/
+ 1168  cd ../
+ 1169  l
+ 1170  cd ../
+ 1171  l
+ 1172  mv ~/Downloads/aenet-lammps-2022Jul05.tar.gz .
+ 1173  l
+ 1174  tar -jxvf aenet-lammps-2022Jul05.tar.gz
+ 1175  tar -zxvf aenet-lammps-2022Jul05.tar.gz 
+ 1176  l
+ 1177  mkdir lammps-05Jul2022
+ 1178  l
+ 1179  cp -rp aenet-lammps-2022Jul05/USER-AENET/ lammps-05Jul2022/src
+ 1180  l lammps-05Jul2022/
+ 1181  cp -rp aenet-lammps-2022Jul05/aenet/ lammps-05Jul2022/lib
+ 1182  cp aenet-2.0.3.tar.bz2 lammps-05Jul2022/lib/aenet/
+ 1183  cd lammps-05Jul2022/lib/
+ 1184  l
+ 1185  mkdir aenet
+ 1186  cd -
+ 1187  cp aenet-2.0.3.tar.bz2 lammps-05Jul2022/lib/aenet/
+ 1188  ls lammps-05Jul2022/lib/aenet
+ 1189  ls lammps-05Jul2022/lib/aenet/
+ 1190  cd -
+ 1191  cd aenet/
+ 1192  l
+ 1193  tar -jxvf aenet-2.0.3.tar.bz2 
+ 1194  l
+ 1195  patch -u -p1 -d aenet-2.0.3/ < aenet-2.0.3_lammps.patch
+ 1196  l
+ 1197  cd ../
+ 1198  l
+ 1199  vi aenet_lammps.patch 
+ 1200  l
+ 1201  cd aenet/
+ 1202  l
+ 1203  cd aenet-2.0.3/
+ 1204  l
+ 1205  ls src/
+ 1206  l
+ 1207  cd ../
+ 1208  l
+ 1209  ls ../
+ 1210  cp -pr ../aenet_lammps.patch .
+ 1211  l
+ 1212  patch -u -p1 -d aenet-2.0.3/ < aenet_lammps.patch 
+ 1213  l
+ 1214  ls -ltr aenet-2.0.3
+ 1215  ls -ltr aenet-2.0.3/src/
+ 1216  vi aenet-2.0.3/src/Makefile.inc
+ 1217  cd aenet-2.0.3/src/
+ 1218  l
+ 1219  make -f makefiles/Makefile.gfortran_serial lib
+ 1220  l
+ 1221  vi Makefile.inc
+ 1222  l
+ 1223  l ext/
+ 1224  vi ext/sfbasis.f90
+ 1225  cd ../../../../src/
+ 1226  l
+ 1227  cd -
+ 1228  ls ../../../
+ 1229  l
+ 1230  ls -ltr
+ 1231  l
+ 1232  pwd
+ 1233  l
+ 1234  vi ../../aenet_lammps.patch 
+ 1235  l
+ 1236  vi ext/sfbasis.f90
+ 1237  make -f makefiles/Makefile.gfortran_serial lib
+ 1238  l
+ 1239  ls -ltr ../bin/
+ 1240  ls -ltr ../../../../lib/
+ 1241  cd ../
+ 1242  l
+ 1243  ls -ltr
+ 1244  l
+ 1245  cd -
+ 1246  ls -ltr
+ 1247  cd ../
+ 1248  ls
+ 1249  ls python3/
+ 1250  cd ../../
+ 1251  cd ../src/
+ 1252  l
+ 1253  make yes-user-aenet
+ 1254  l
+ 1255  vi Install.sh 
+ 1256  grep -ir yes-user
+ 1257  cd ../lib/
+ 1258  l
+ 1259  grep -ir yes-user
+ 1260  l
+ 1261  cd aenet/
+ 1262  l
+ 1263  vi Makefile.lammps 
+ 1264  ls -ltr
+ 1265  l
+ 1266  vi libaenet.a
+ 1267  cd aenet-2.0.3/src/
+ 1268  l
+ 1269  vi Makefile.inc
+ 1270  vi Makefile
+ 1271  vi makefiles/Makefile.gfortran_serial
+ 1272  vi Makefile.inc
+ 1273  l
+ 1274  vi prepare-release.sh 
+ 1275  cd ../../../
+ 1276  cd ../
+ 1277  l
+ 1278  cd ../
+ 1279  l
+ 1280  grep -ir yes-user
+ 1281  cd aenet-lammps-2022Jul05/
+ 1282  l
+ 1283  ls -ltr
+ 1284  vi README.md 
+ 1285  vi tutorial/aenet-lammps_demo_wc.ipynb 
+ 1286  l
+ 1287  cd ../
+ 1288  cd -
+ 1289  cd ../
+ 1290  ls
+ 1291  cd lammps-05Jul2022/
+ 1292  l
+ 1293  cd lib/
+ 1294  l
+ 1295  cd aenet/
+ 1296  l
+ 1297  cd ../../
+ 1298  l
+ 1299  cd ../
+ 1300  cd lammps-05Jul2022/src/
+ 1301  l
+ 1302  vi pair_aenet.
+ 1303  vi pair_aenet.cpp 
+ 1304  vi pair_aenet.h 
+ 1305  l
+ 1306  cd ../../
+ 1307  l
+ 1308  vi aenet-lammps-2022Jul05
+ 1309  vi aenet-lammps-2022Jul05/ANN/
+ 1310  vi aenet-lammps-2022Jul05/README.md 
+ 1311  l
+ 1312  cd aenet-lammps-2022Jul05/
+ 1313  grep -ir yes-user
+ 1314  vi tutorial/
+ 1315  vi tutorial/aenet-lammps_demo_wc.ipynb 
+ 1316  vi tutorial/.ipynb_checkpoints/aenet-lammps_demo_wc-checkpoint.ipynb 
+ 1317  l
+ 1318  which generate_rVV10_kernel_table.x 
+ 1319  l
+ 1320  cd ../
+ 1321  l
+ 1322  mv ~/Downloads/atomsk_b0.13.1_Linux-amd64.tar.gz .
+ 1323  tar -zxvf atomsk_b0.13.1_Linux-amd64.tar.gz 
+ 1324  l
+ 1325  df -h
+ 1326  l
+ 1327  cd atomsk_b0.13.1_Linux-amd64/
+ 1328  l
+ 1329  vi README 
+ 1330  xdg-open doc/index.html 
+ 1331  l
+ 1332  ls man/
+ 1333  vi man/atomsk 
+ 1334  vi install.sh 
+ 1335  vi README 
+ 1336  ls etc/
+ 1337  vi etc/atomsk.conf 
+ 1338  ls
+ 1339  ls tools/
+ 1340  cd examples/
+ 1341  l
+ 1342  cd ../
+ 1343  ls
+ 1344  cd doc/
+ 1345  ls
+ 1346  ls en/
+ 1347  vi index.html 
+ 1348  ls
+ 1349  cd ../
+ 1350  ls
+ 1351  vi CHANGELOG 
+ 1352  la
+ 1353  bash install.sh 
+ 1354  l
+ 1355  ls -ltr
+ 1356  ls
+ 1357  vi ~/.bashrc 
+ 1358  source ~/.bashrc 
+ 1359  vi ~/.bashrc 
+ 1360  source ~/.bashrc 
+ 1361  l
+ 1362  vi ~/.bashrc 
+ 1363  source ~/.bashrc 
+ 1364  l
+ 1365  cd ../
+ 1366  ls
+ 1367  which molden
+ 1368  which atobm 
+ 1369  which atomsk 
+ 1370  vi ~/.bashrc 
+ 1371  source ~/.bashrc 
+ 1372  which atomsk 
+ 1373  vi ~/.bashrc 
+ 1374  vi ~/.git-prompt.sh 
+ 1375  vi ~/.bashrc 
+ 1376  export PATH=$PATH:/home/daichi/program/atomsk_b0.13.1_Linux-amd64
+ 1377  which atomsk 
+ 1378  ls
+ 1379  vi tmp
+ 1380  ls -ltr
+ 1381  vi tmp
+ 1382  cd program/
+ 1383  l
+ 1384  cd aenet-2.0.3/
+ 1385  l
+ 1386  cd src/
+ 1387  ls
+ 1388  diff ext/sfbasis.f90 /home/daichi/program/lammps-05Jul2022/lib/aenet/aenet-2.0.3/src/ext/sfbasis.f90
+ 1389  cd ~/Desktop/Programming/python/ASE_DFT/
+ 1390  l
+ 1391  cd H2O/
+ 1392  l
+ 1393  cd ../
+ 1394  l
+ 1395  ls H2
+ 1396  vi H2/h2.py 
+ 1397  cd 
+ 1398  cd -
+ 1399  l
+ 1400  cd ../
+ 1401  l
+ 1402  ls ML/
+ 1403  mv ML/NNP/ ASE_DFT/
+ 1404  l
+ 1405  cd a
+ 1406  cd ASE_DFT/
+ 1407  l
+ 1408  cd NNP/
+ 1409  l
+ 1410  vi quartz.cif
+ 1411  l
+ 1412  cd ../H2
+ 1413  l
+ 1414  cd gpaw-data/
+ 1415  l
+ 1416  cd gpaw-setups-24.1.0/
+ 1417  l
+ 1418  cd ../../../
+ 1419  l
+ 1420  cd NNP/
+ 1421  l
+ 1422  ~/program/atomsk_b0.13.1_Linux-amd64/atomsk quartz.cif quartz.xsf
+ 1423  l
+ 1424  vi quartz.xsf 
+ 1425  l
+ 1426  cd ../
+ 1427  l;s
+ 1428  l
+ 1429  cd ../
+ 1430  ls
+ 1431  cd ASE_DFT/
+ 1432  l
+ 1433  cd NNP/
+ 1434  ls
+ 1435  which conv.py 
+ 1436  find / -path /proc -prune -name Telegram
+ 1437  l
+ 1438  l /
+ 1439  cd Desktop/Programming/python/
+ 1440  l
+ 1441  cd ASE_DFT/
+ 1442  l
+ 1443  top
+ 1444  Telegram 
+ 1445  which Telegram 
+ 1446  top
+ 1447  sudo rm -rf /opt/Telegram/
+ 1448  ls /opt/
+ 1449  find /home/user -path /home/user/exclude_this_directory -prune -o -name "conv.py" -print
+ 1450  cd ../
+ 1451  l
+ 1452  find . -path ./text -prune -o -name "A.py" -print
+ 1453  find ../ -path ./text -prune -o -name "A.py" -print
+ 1454  find ../ -path ../AtCoder -prune -o -name "A.py" -print
+ 1455  find ../ -path ../AtCoder/ABC -prune -o -name "A.py" -print
+ 1456  find ../ -path ../AtCoder/ABC -prune -o -name "A.py"
+ 1457  find ../ -path ../AtCoder/ABC -o -name "A.py"
+ 1458  find ../ ../AtCoder/ABC -prune -o -name "A.py"
+ 1459  find ../ -path ../AtCoder/ABC -o -name "A.py"
+ 1460  find ../ -path ../AtCoder/ABC -prune -o -name "A.py"
+ 1461  find --help
+ 1462  find / -path /proc -prune -name Telegram
+ 1463  l
+ 1464  cd ASE_DFT/NNP/
+ 1465  l
+ 1466  ls
+ 1467  mkdir chase3pt-projects/data/pseudopotentials
+ 1468  mkdir -p chase3pt-projects/data/pseudopotentials
+ 1469  l
+ 1470  ls chase3pt-projects/
+ 1471  ls chase3pt-projects/data/pseudopotentials/
+ 1472  mv chase3pt-projects/ Desktop/
+ 1473  ls Desktop/
+ 1474  cd Desktop/
+ 1475  l
+ 1476  cd chase3pt-projects/data/pseudopotentials/
+ 1477  l
+ 1478  mv '/home/daichi/Downloads/O_ggapbe_paw_us_02m.pp' .
+ 1479  l
+ 1480  mv '/home/daichi/Downloads/Si_ggapbe_paw_nc_01m.pp' .
+ 1481  l
+ 1482  cd ~/Desktop/Programming/python/ASE_DFT/NNP/
+ 1483  conv.py --na=2
+ 1484  l
+ 1485  vi quartz_2times.xsf 
+ 1486  conv.py --nb=2 --nc=2 --pack
+ 1487  l
+ 1488  VESTA
+ 1489  l
+ 1490  vi quartz_2times.cif 
+ 1491  conv.py
+ 1492  l
+ 1493  vi nfinp.data 
+ 1494  vi /home/daichi/program/phase0_2024.01/bin/piou/util/phase_util.py 
+ 1495  l
+ 1496  vi quartz_2times.cif 
+ 1497  vi nfinp.data 
+ 1498  conv.py --na=2 --nb=2 --nc=2 --pack
+ 1499  l
+ 1500  vi nfinp.data 
+ 1501  echo $HOME
+ 1502  l
+ 1503  ls $HOME
+ 1504  vi /home/daichi/program/phase0_2024.01/bin/piou/config/phase.py 
+ 1505  cd /home/daichi/program/phase0_2024.01/bin/l
+ 1506  cd /home/daichi/program/phase0_2024.01/bin/
+ 1507  ;
+ 1508  l
+ 1509  grep -ir HOME
+ 1510  vi piou/data/props.properties 
+ 1511  cd -
+ 1512  l
+ 1513  conv.py --na=2 --nb=2 --nc=2 --pack
+ 1514  cd -
+ 1515  conv.py --na=2 --nb=2 --nc=2 --pack
+ 1516  ls
+ 1517  vi nfinp.data 
+ 1518  ls
+ 1519  vi nfinp.data 
+ 1520  conv.py 
+ 1521  ls
+ 1522  vi nfinp.data 
+ 1523  rm nfinp.data 
+ 1524  conv.py 
+ 1525  vi nfinp.data 
+ 1526  vi file_names.data
+ 1527  vi nfinp.data 
+ 1528  which phase
+ 1529  phase
+ 1530  l
+ 1531  vi output000 
+ 1532  mkdir coord_data
+ 1533  mv quartz* coord_data/
+ 1534  ls
+ 1535  vi file_names.data 
+ 1536  ls
+ 1537  l
+ 1538  phase 
+ 1539  ls
+ 1540  mkdir fpmd
+ 1541  mv *K fpmd/
+ 1542  ls
+ 1543  cd fpmd/
+ 1544  l
+ 1545  cd 1200K/
+ 1546  ls
+ 1547  tar -jxvf  xsf.tar.bz2 
+ 1548  ls
+ 1549  vi nfdynm001000.xsf 
+ 1550  cd ../800K/
+ 1551  l
+ 1552  tar -jxvf  xsf.tar.bz2 
+ 1553  ls
+ 1554  cd ../500K/
+ 1555  tar -jxvf  xsf.tar.bz2 
+ 1556  l
+ 1557  cd ../
+ 1558  ls
+ 1559  cd ../
+ 1560  ls
+ 1561  mkdir xsf
+ 1562  mv *.xsf xsf
+ 1563  l
+ 1564  ls -tlr
+ 1565  l
+ 1566  ls
+ 1567  cd ../../
+ 1568  ls
+ 1569  mv ASE_DFT/ ../../
+ 1570  l
+ 1571  cd ../../
+ 1572  ls
+ 1573  mv chase3pt-projects/ ASE_DFT/
+ 1574  ls
+ 1575  cd ASE_DFT/
+ 1576  ls
+ 1577  cd NNP/
+ 1578  ls
+ 1579  l
+ 1580  cd ../
+ 1581  ls
+ 1582  mv chase3pt-projects/ ~/program/phase0_2024.01/
+ 1583  l
+ 1584  cd NNP/
+ 1585  l
+ 1586  vi zaj.data 
+ 1587  l
+ 1588  diff xsf/nfdynm000010.xsf fpmd/1200K/nfdynm000010.xsf 
+ 1589  vi xsf/nfdynm000010.xsf 
+ 1590  l
+ 1591  vi Si.fingerprint.stp
+ 1592  cp -rp Si.fingerprint.stp O.fingerprint.stp
+ 1593  l
+ 1594  vi O.fingerprint.stp 
+ 1595  vi generate.in
+ 1596  ls fpmd/500K/
+ 1597  l
+ 1598  vi generate.in
+ 1599  cd ~/Desktop/ASE_DFT/NNP/
+ 1600  l
+ 1601  generate.x-2.0.3-gfortran_serial generate.in > generate.out
+ 1602  vi generate.in 
+ 1603  generate.x-2.0.3-gfortran_serial generate.in > generate.out
+ 1604  l
+ 1605  ls -ltr
+ 1606  vi generate.out 
+ 1607  vi generate.in 
+ 1608  generate.x-2.0.3-gfortran_serial generate.in > generate.out
+ 1609  l
+ 1610  ls -ltr
+ 1611  vi SiO.train 
+ 1612  which generate_rVV10_kernel_table.x 
+ 1613  l
+ 1614  vi continue.data 
+ 1615  vi nfefermi.data 
+ 1616  vi train.in
+ 1617  train.x-2.0.3-gfortran_serial train.in > train.in &
+ 1618  top
+ 1619  ls
+ 1620  train.x-2.0.3-gfortran_serial train.in > train.in
+ 1621  ls
+ 1622  vi SiO.train 
+ 1623  l
+ 1624  vi train.in 
+ 1625  train.x-2.0.3-gfortran_serial train.in > train.out
+ 1626  ls -ltr
+ 1627  l
+ 1628  vi train.out 
+ 1629  vi predict.in
+ 1630  vi generate.in 
+ 1631  vi predict.in
+ 1632  predict.x-2.0.3-gfortran_serial predict.in > predict.out
+ 1633  ls -ltr
+ 1634  vi predict.out 
+ 1635  ~/program/aenet-2.0.3/python3/scripts/extract_energy.py -n predict.out 
+ 1636  python ~/program/aenet-2.0.3/python3/scripts/extract_energy.py -n predict.out 
+ 1637  cd Desktop/ASE_DFT/NNP/
+ 1638  l
+ 1639  vi predict.out 
+ 1640  vi SiO.train.scaled 
+ 1641  vi predict.in 
+ 1642  vi predict.out 
+ 1643  vi generate.in 
+ 1644  vi generate.out 
+ 1645  vi train.out 
+ 1646  vi SiO.train
+ 1647  df -h
+ 1648  vi predict.out 
+ 1649  l
+ 1650  vi O.10t-10t.nn
+ 1651  vi Si.fingerprint.stp 
+ 1652  vi train.rngstate 
+ 1653  vi train.restart 
+ 1654  file -i predict.in 
+ 1655  file -i predict.out 
+ 1656  file  predict.out 
+ 1657  l
+ 1658  ls fpmd/
+ 1659  vi continue_bin.data 
+ 1660  ls
+ 1661  vi comment.json 
+ 1662  echo $ID
+ 1663  echo $ID
+ 1664  echo $ID2
+ 1665  echo $ID3
+ 1666  ls
+ 1667  echo $ID
+ 1668  ls
+ 1669  vi tmp 
+ 1670  rm tmp 
+ 1671  ls
+ 1672  vi memo 
+ 1673  ls scikit_learn_data/
+ 1674  mv scikit_learn_data/ Desktop/
+ 1675  ls
+ 1676  top
+ 1677  df -h
+ 1678  du -h
+ 1679  top
+ 1680  ls
+ 1681  vi ~/.ssh/config 
+ 1682  l
+ 1683  ls
+ 1684  xclock 
+ 1685  echo $DISPLAY 
+ 1686  ip addr show
+ 1687  ip addr show eth0
+ 1688  ip addr show wlp20
+ 1689  ip addr show wlp2
+ 1690  ip addr show wlp
+ 1691  ip addr show wl
+ 1692  ip addr show w
+ 1693  ip addr show lo
+ 1694  ip addr show wlp2s0
+ 1695  l
+ 1696  cd works/
+ 1697  ls
+ 1698  ls -ltr
+ 1699  ls TAKUMI/
+ 1700  ls TAKUMI/py_class/
+ 1701  vi TAKUMI/py_class/display.py 
+ 1702  vi TAKUMI/py_class/l
+ 1703  vi TAKUMI/py_class/output.log 
+ 1704  ls
+ 1705  cd ../Desktop/Programming/
+ 1706  ls
+ 1707  ls lisp/
+ 1708  ls wspace/
+ 1709  ls Piet/
+ 1710  eog Piet/hello_piet.png 
+ 1711  cd Piet/
+ 1712  ls
+ 1713  ls Pidet-ver20170614
+ 1714  vi Pidet-ver20170614/README.md 
+ 1715  vi url.txt 
+ 1716  cd ../
+ 1717  ls
+ 1718  ls numcalc/
+ 1719  vi numcalc/dif_2files_val.py 
+ 1720  l someone_prog/
+ 1721  vi tmp
+ 1722  l
+ 1723  vi test_rdkit.py 
+ 1724  ls
+ 1725  mkdir C
+ 1726  cd C
+ 1727  ls
+ 1728  vi test_mpi.c
+ 1729  gcc -o a.out test_mpi.c 
+ 1730  vi test_mpi.c
+ 1731  ls
+ 1732  mpicc -o test_mpi test_mpi.c 
+ 1733  ls
+ 1734  mpirun -np 4 ./test_mpi
+ 1735  mpiexec -np 4 ./test_mpi
+ 1736  vi test_mpi.c
+ 1737  ls
+ 1738  cd ../AtCoder/ABC/
+ 1739  ls
+ 1740  mkdir 369_nr
+ 1741  cd 369_nr/
+ 1742  ls
+ 1743  vi A.py
+ 1744  python A.py 
+ 1745  vi A.py
+ 1746  python A.py 
+ 1747  xclip A.py 
+ 1748  vi B.py
+ 1749  lc -l
+ 1750  bc -l
+ 1751  vi B.py
+ 1752  python B.py 
+ 1753  26 R
+ 1754  45 R
+ 1755  72 R
+ 1756  81 R
+ 1757  47 L
+ 1758  29 R
+ 1759  vi B.py
+ 1760  python B.py 
+ 1761  xclip B.py 
+ 1762  ls
+ 1763  l
+ 1764  ls
+ 1765  cd ../../../
+ 1766  ls
+ 1767  cd bash/
+ 1768  ks
+ 1769  l
+ 1770  ls paste/
+ 1771  ls paste/list1_1.txt 
+ 1772  vi paste/list1_1.txt 
+ 1773  ls
+ 1774  vi inp.txt 
+ 1775  ls sort/
+ 1776  vi test.sh 
+ 1777  ls
+ 1778  mkdir youtube_comment
+ 1779  ls
+ 1780  cd youtube_comment/
+ 1781  vi message.txt
+ 1782  curl "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId="
+ 1783  l
+ 1784  ls
+ 1785  vi README.md
+ 1786  cat message.txt | tail -1 
+ 1787  cat message.txt 
+ 1788  cat message.txt | tail -2
+ 1789  cat message.txt | tail 0
+ 1790  cat message.txt | tail -3
+ 1791  cat message.txt | tail -0
+ 1792  cat message.txt | tail -1 | cut -d "/"
+ 1793  cat message.txt | tail -1 | cut -d "/" -f 4
+ 1794  cat message.txt | tail -1 | cut -d "/" -f 3
+ 1795  cat message.txt | tail -1 | cut -d "/" -f 2
+ 1796  cat message.txt | tail -1 | cut -d "/" -f 1
+ 1797  ID=$(cat message.txt | tail -1 | cut -d "/" -f 2)
+ 1798  cat $ID
+ 1799  echo $ID
+ 1800  echo ${ID}
+ 1801  echo $ID
+ 1802  ID=$(cat message.txt | tail -1 | cut -d "/" -f 4)
+ 1803  echo $ID
+ 1804  curl "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID"
+ 1805  curl "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videId="
+ 1806  ls
+ 1807  vi README.md 
+ 1808  API_KEY="AIzaSyBs0aahCkkySyc20my5myKx6A24W9ISARQ"
+ 1809  echo $API_KEY 
+ 1810  env
+ 1811  printenv
+ 1812  printenv | grep ID
+ 1813  printenv | grep API_KEY
+ 1814  set 
+ 1815  set | grep API_KEY
+ 1816  set | grep ID
+ 1817  vi README.md 
+ 1818  ls
+ 1819  curl "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID"
+ 1820  curl "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID" | less
+ 1821  curl "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID" | grep parabora
+ 1822  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID" | grep parabora
+ 1823  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID" | jq keys
+ 1824  sudo apt install jq
+ 1825  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID" | jq keys
+ 1826  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID" | jq -r .nextPageToken
+ 1827  TOKEN=$(curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID" | jq -r .nextPageToken)
+ 1828  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID&pageToken=$TOKEN"
+ 1829  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID&pageToken=$TOKEN" | grep parabora
+ 1830  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID&pageToken=$TOKEN" > comment.json
+ 1831  ls
+ 1832  open comment.json 
+ 1833  xdg-open comment.json 
+ 1834  cat comment.json 
+ 1835  cat comment.json | jq keys
+ 1836  cat comment.json | jq '.items'
+ 1837  cat comment.json | jq '.items[] | .snippet.topLevelComment.snippet.autherDisplayName'
+ 1838  cat comment.json | jq '.items[] | .snippet.topLevelComment.snippet.authorDisplayName'
+ 1839  cat comment.json | jq '.items[] | select(.snippet.topLevelComment.snippet.authorDisplayName == "parabora")'
+ 1840  cat comment.json | jq '.items[] | select(.snippet.topLevelComment.snippet.authorDisplayName == "kabutouya")'
+ 1841  cat comment.json | jq '.items[] | select(.snippet.topLevelComment.snippet.authorDisplayName == "@kabutouya")'
+ 1842  cat comment.json | jq '.items[] | select(.snippet.topLevelComment.snippet.authorDisplayName == "@parabora")'
+ 1843  cat comment.json | grep parabora
+ 1844  cat comment.json | jq '.items[] | select(.snippet.topLevelComment.snippet.authorDisplayName == "@parabora-qt8fg")'
+ 1845  ls ../../
+ 1846  ls ../../python/
+ 1847  ls ../../python/ML/
+ 1848  ls
+ 1849  vi README.md 
+ 1850  cat comment.json | jq '.items[] | select(.snippet.topLevelComment.snippet.authorDisplayName == "@parabora-qt8fg") | .snippet.topLevelComment.snippet.testOriginal'
+ 1851  cat comment.json | jq '.items[] | select(.snippet.topLevelComment.snippet.authorDisplayName == "@parabora-qt8fg") | .snippet.topLevelComment.snippet.textOriginal'
+ 1852  curl "http://www.youtube.com/@parabora-qt8fg"
+ 1853  ls
+ 1854  gnome-terminal .
+ 1855  ls
+ 1856  vi README.md 
+ 1857  history | grep curl
+ 1858  ls ~/Desktop/
+ 1859  ls ~/Desktop/scikit_learn_data/
+ 1860  ls ~/Desktop/Git/
+ 1861  ls ~/Desktop/Git/Private_repo/
+ 1862  ls ~/Desktop/Git/Private_repo/calc_pad_need
+ 1863  ls ~/Desktop/Git/Private_repo/calc_pad_need/set_cal_scfMTNMT/
+ 1864  ls ~/Desktop/Git/Private_repo/calc_pad_need/output_pad
+ 1865  ls ~/Desktop/Git/Private_repo/calc_pad_need/output_pad_scfMT/
+ 1866  ls
+ 1867  l
+ 1868  cd ../../
+ 1869  ls
+ 1870  vi lisp/
+ 1871  cd ../Git/
+ 1872  ls
+ 1873  cd Private_repo/
+ 1874  ls
+ 1875  cd ../../
+ 1876  ls
+ 1877  ls Trash/
+ 1878  ls
+ 1879  ls FirstPrinciple/
+ 1880  ls org.inkscape.inkman
+ 1881  ls
+ 1882  cd Programming/
+ 1883  ls
+ 1884  cd bash/
+ 1885  ks
+ 1886  l
+ 1887  cd youtube_comment/
+ 1888  ls
+ 1889  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID" | grep parabora
+ 1890  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID"
+ 1891  echo -e "apple\nbanana\ncherry" | grep "[^abc]"
+ 1892  echo -e "apple\nbanana\ncherry" | grep "[^ab]"
+ 1893  echo -e "apple\nbanana\ncherry\naaa" | grep "[^abc]"
+ 1894  echo -e "apple\nbanana\ncherry\naaa" | grep "[^bc]"
+ 1895  l
+ 1896  vi README.md 
+ 1897  history 
+ 1898  echo $ID
+ 1899  echo $API_KEY 
+ 1900  ID2=bs_RTzKBpUk?si=XncMP2CH25A5nYSI
+ 1901  echo $ID2
+ 1902  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID2"
+ 1903  ID2=XncMP2CH25A5nYSI
+ 1904  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID2"
+ 1905  ID2=bs_RTzKBpUk
+ 1906  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID2"
+ 1907  history 
+ 1908  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID2"
+ 1909  ls
+ 1910  vi comment.json 
+ 1911  vi message.txt 
+ 1912  curl -sS "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=$API_KEY&videoId=$ID2" > comment2.json 
+ 1913  vi comment2.json 
+ 1914  history | grep "grep"
+ 1915  cat comment2.json | grep @カピバラとぉさん
+ 1916  vi README.md 
+ 1917  cat comment2.json | jq '.items[] | select(.snippet.topLevelComment.snippet.authorDisplayName == "@カピバラとぉさん") | .snippet.topLevelComment.snippet.textOriginal'
+ 1918  printenv 
+ 1919  printenv | grep ID
+ 1920  env | grep ID
+ 1921  set | grep ID
+ 1922  echo $ID2
+ 1923  echo $ID
+ 1924  export $ID
+ 1925  export ID=9c066Jwx79w
+ 1926  ls
+ 1927  echo $ID
+ 1928  set | grep ID
+ 1929  set | grep API_
+ 1930  set | grep ID2
+ 1931  sudo apt update
+ 1932  sudo apt install openjdk-17-jdk
+ 1933  sudo dpkg --configure -a
+ 1934  sudo apt update
+ 1935  sudo apt install openjdk-17-jdk
+ 1936  ls
+ 1937  java -version 
+ 1938  ls
+ 1939  cd ../../
+ 1940  ls
+ 1941  mkdir java
+ 1942  cd java/
+ 1943  ks
+ 1944  l
+ 1945  vi hello.java
+ 1946  javac hello.java 
+ 1947  ls
+ 1948  java Greeting
+ 1949  java Greeting.class
+ 1950  l
+ 1951  mv hello.java Greeting.java
+ 1952  vi Greeting.java 
+ 1953  javac Greeting.java 
+ 1954  java Greeting
+ 1955  l
+ 1956  java -cp . Greeting
+ 1957  ls
+ 1958  vi ~/.bashrc 
+ 1959  source ~/.bashrc 
+ 1960  java Greeting
+ 1961  l
+ 1962  java -cp . Greeting 
+ 1963  vi ~/.bashrc 
+ 1964  source ~/.bashrc 
+ 1965  jv Greeting
+ 1966  jv Greeting.class 
+ 1967  vi Greeting.java 
+ 1968  javac Greeting.java 
+ 1969  jv Greeting
+ 1970  vi Greeting.java 
+ 1971  javac Greeting.java 
+ 1972  vi Greeting.java 
+ 1973  javac Greeting.java 
+ 1974  vi Greeting.java 
+ 1975  j
+ 1976  javac Greeting.java 
+ 1977  jv Greeting
+ 1978  vi Greeting.java 
+ 1979  javac Greeting.java 
+ 1980  vi Greeting.java 
+ 1981  javac Greeting.java 
+ 1982  jv Greeting
+ 1983  vi Greeting.java 
+ 1984  ls
+ 1985  vi Whatyname.java
+ 1986  javac Whatyname.java 
+ 1987  vi Whatyname.java
+ 1988  javac Whatyname.java 
+ 1989  jv Whatyname
+ 1990  vi Whatyname.java
+ 1991  vi ~/.vimrc 
+ 1992  gnome-terminal .
+ 1993  ps -aux | grep 199214
+ 1994  top
+ 1995  sudo kill -9 199214
+ 1996  cd ~/Desktop/Programming/python/app/
+ 1997  l
+ 1998  vi app.py 
+ 1999  l
+ 2000  vi example.db 
+ 2001  sqlite3 example.db 
+ 2002  kill %1
+ 2003  l
+ 2004  jobs
+ 2005  l
+ 2006  mkdir Text_mining
+ 2007  cd Text_mining/
+ 2008  l
+ 2009  vi Dockerfile
+ 2010  vi docker-compose.yml
+ 2011  mkdir srcc
+ 2012  mv srcc/ src
+ 2013  vi src/app.py
+ 2014  l
+ 2015  vi ../app.py 
+ 2016  sudo apt-get update
+ 2017  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+ 2018  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 2019  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 2020  sudo apt-get update
+ 2021  sudo apt-get install docker-ce docker-ce-cli containerd.io
+ 2022  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 2023  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 2024  sudo docker --version
+ 2025  sudo sed -i 's/ulyssa/focal/g' /etc/apt/sources.list.d/docker.list
+ 2026  vi /etc/apt/sources.list.d/docker.list
+ 2027  vi /etc/apt/sources.list.d/docker.list 
+ 2028  vi /etc/apt/sources.list.d/inkscape_dev-stable-focal.list 
+ 2029  vi /etc/apt/sources.list
+ 2030  vi /etc/apt/sources.list.d/oneAPI.list 
+ 2031  cat /etc/apt/sources.list.d/additional-repositories.list
+ 2032  cat /etc/apt/sources.list.d/docker.list
+ 2033  sudo apt-get update
+ 2034  sudo sed -i 's/ulyssa/focal/g' /etc/apt/sources.list.d/additional-repositories.list 
+ 2035  sudo apt-get update
+ 2036  cat /etc/apt/sources.list.d/additional-repositories.list
+ 2037  sudo apt-get install docker-ce docker-ce-cli containerd.io
+ 2038  sudo docker --version
+ 2039  l
+ 2040  history 
+ 2041  history > his.txt
